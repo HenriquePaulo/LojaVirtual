@@ -9,7 +9,7 @@ namespace Quiron.LojaVitual.Dominio.Entidade{
         public int produtoId { get; set; }
         public String nome { get; set; }
         public String descricao { get; set; }
-        public double preco { get; set; }
+        public decimal preco { get; set; }
         public String categoria { get; set; }
 
 
